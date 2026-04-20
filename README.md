@@ -12,12 +12,36 @@ Both the writer and evaluator are powered by the **Claude Code CLI** (`claude --
 ## Install
 
 ```bash
-pip install right-tail           # PyPI (coming soon)
-# or from source:
-pip install -e .
+# From GitHub (latest)
+pip install git+https://github.com/ayanopt/right-tail.git
+
+# Specific version/tag
+pip install git+https://github.com/ayanopt/right-tail.git@v0.1.0
+
+# From source (for development)
+git clone https://github.com/ayanopt/right-tail.git
+cd right-tail && pip install -e .
 ```
 
 Requires Python 3.11+ and the [Claude Code CLI](https://claude.ai/code) installed and authenticated.
+
+## Claude Code skill
+
+Install a `/right-tail` slash command into any Claude Code session:
+
+```bash
+mkdir -p ~/.claude/commands
+curl -o ~/.claude/commands/right-tail.md \
+  https://raw.githubusercontent.com/ayanopt/right-tail/main/.claude/commands/right-tail.md
+```
+
+Then inside any Claude Code session:
+
+```
+/right-tail add JWT auth middleware to the Django API
+```
+
+Claude will ask for the mode (iterative/gaussian) and any extra flags, then run right-tail against the current repo.
 
 ## Usage
 
