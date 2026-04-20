@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "right-tail"
+version = "0.1.0"
+description = "AI-driven code-review loop with statistical success criteria"
+requires-python = ">=3.11"
+dependencies = [
+  "typer[all]>=0.12",
+  "scipy>=1.13",
+  "rich>=13",
+]
+
+[project.scripts]
+right-tail = "right_tail.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["right_tail"]
