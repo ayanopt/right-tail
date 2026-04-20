@@ -34,17 +34,19 @@ def run_iterative(
     table.add_column("Right-Tail Score", style="bold yellow")
     table.add_column("High/Critical", style="red")
 
+    parent = base  # each attempt branches from the previous, accumulating improvements
+
     for n in range(1, max_iterations + 1):
         branch = f"right-tail/iterative-{run_id}-attempt-{n}"
         branches_created.append(branch)
 
         console.print(f"\n[bold]Attempt {n}/{max_iterations}[/bold] — branch: [cyan]{branch}[/cyan]")
-        checkout(repo, base)
-        create_branch(repo, branch, base)
+        checkout(repo, parent)
+        create_branch(repo, branch, parent)
 
         run_writer(repo, task, n, prior_comments=prior_comments, model=model)
 
-        if not branch_has_commits(repo, branch, base):
+        if not branch_has_commits(repo, branch, parent):
             console.print("[yellow]Writer made no commits — skipping evaluation.[/yellow]")
             checkout(repo, base)
             continue
@@ -72,6 +74,8 @@ def run_iterative(
             _cleanup(repo, branches_created, keep_branches, winner=branch)
             return attempt
 
+        # Next iteration builds on this branch and addresses its comments
+        parent = branch
         prior_comments = attempt.comments
         console.print(f"[yellow]{len(blocking)} blocking comment(s) — revising...[/yellow]")
 
