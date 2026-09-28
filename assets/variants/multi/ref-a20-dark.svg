@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="460.46 365.73 504.25 504.25" width="512" height="512">
+  <title>Parallax Data</title>
+  <defs>
+    <path id="rim" d="M 917.8,468.4 L 776.5,546.4 L 766,433 L 708.5,581.8 L 467.8,593.3 L 673.5,630.6 L 555,760.8 L 681.5,688.1 L 698.4,802.7 L 770.2,656.2 L 939.6,620.3 L 801.8,595.1 Z M 898.9,482.9 L 734.5,615.6 L 797.9,597.9 L 921.2,618.6 L 734.5,619.6 L 765.1,656.5 L 731,620.9 L 697.7,790.5 L 685.3,683.5 L 727,622.6 L 569.4,747.2 L 677.9,630.7 L 728.6,617.6 L 495.7,594.3 L 707.8,586.5 L 728,612.5 L 712.3,579.6 L 763,449 L 733.1,614.9 L 775,552.1 Z" fill-rule="evenodd"/>
+    <path id="sil" d="M 917.8,468.4 L 776.5,546.4 L 766,433 L 708.5,581.8 L 467.8,593.3 L 673.5,630.6 L 555,760.8 L 681.5,688.1 L 698.4,802.7 L 770.2,656.2 L 939.6,620.3 L 801.8,595.1 Z"/>
+    <mask id="m0" maskUnits="userSpaceOnUse" x="410.5" y="315.7" width="604.2" height="604.2"><rect x="410.5" y="315.7" width="604.2" height="604.2" fill="#fff"/><use href="#sil" transform="translate(731 617) rotate(20) scale(1 1) translate(-731 -617)" fill="#000" stroke="#000" stroke-width="16.0" stroke-linejoin="round"/></mask>
+  </defs>
+  <g mask="url(#m0)"><use href="#rim" fill="#e8e1ce" transform="translate(731 617) rotate(0) scale(1 1) translate(-731 -617)"/></g>
+  <g><use href="#rim" fill="#e8e1ce" transform="translate(731 617) rotate(20) scale(1 1) translate(-731 -617)"/></g>
+</svg>
