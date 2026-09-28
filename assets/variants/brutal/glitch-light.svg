@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+  <title>Parallax Data</title>
+  <defs>
+    <path id="rim" d="M 917.8,468.4 L 776.5,546.4 L 766,433 L 708.5,581.8 L 467.8,593.3 L 673.5,630.6 L 555,760.8 L 681.5,688.1 L 698.4,802.7 L 770.2,656.2 L 939.6,620.3 L 801.8,595.1 Z M 898.9,482.9 L 734.5,615.6 L 797.9,597.9 L 921.2,618.6 L 734.5,619.6 L 765.1,656.5 L 731,620.9 L 697.7,790.5 L 685.3,683.5 L 727,622.6 L 569.4,747.2 L 677.9,630.7 L 728.6,617.6 L 495.7,594.3 L 707.8,586.5 L 728,612.5 L 712.3,579.6 L 763,449 L 733.1,614.9 L 775,552.1 Z" fill-rule="evenodd"/>
+    <path id="sil" d="M 917.8,468.4 L 776.5,546.4 L 766,433 L 708.5,581.8 L 467.8,593.3 L 673.5,630.6 L 555,760.8 L 681.5,688.1 L 698.4,802.7 L 770.2,656.2 L 939.6,620.3 L 801.8,595.1 Z"/>
+    <clipPath id="b0"><rect x="-20" y="0" width="140" height="22"/></clipPath><clipPath id="b1"><rect x="-20" y="22" width="140" height="9"/></clipPath><clipPath id="b2"><rect x="-20" y="31" width="140" height="6"/></clipPath><clipPath id="b3"><rect x="-20" y="37" width="140" height="14"/></clipPath><clipPath id="b4"><rect x="-20" y="51" width="140" height="5"/></clipPath><clipPath id="b5"><rect x="-20" y="56" width="140" height="10"/></clipPath><clipPath id="b6"><rect x="-20" y="66" width="140" height="4"/></clipPath><clipPath id="b7"><rect x="-20" y="70" width="140" height="30"/></clipPath>
+  </defs>
+  <g clip-path="url(#b0)"><use href="#rim" fill="#000000" transform="translate(50 50) scale(0.19500) translate(-703.70 -617.85)"/></g>
+  <g clip-path="url(#b1)"><use href="#rim" fill="#ff2a00" transform="translate(43 50) scale(0.19500) translate(-703.70 -617.85)"/></g>
+  <g clip-path="url(#b2)"><use href="#rim" fill="#000000" transform="translate(55 50) scale(0.19500) translate(-703.70 -617.85)"/></g>
+  <g clip-path="url(#b3)"><use href="#rim" fill="#000000" transform="translate(50 50) scale(0.19500) translate(-703.70 -617.85)"/></g>
+  <g clip-path="url(#b4)"><use href="#rim" fill="#000000" transform="translate(59 50) scale(0.19500) translate(-703.70 -617.85)"/></g>
+  <g clip-path="url(#b5)"><use href="#rim" fill="#ff2a00" transform="translate(47 50) scale(0.19500) translate(-703.70 -617.85)"/></g>
+  <g clip-path="url(#b6)"><use href="#rim" fill="#000000" transform="translate(40 50) scale(0.19500) translate(-703.70 -617.85)"/></g>
+  <g clip-path="url(#b7)"><use href="#rim" fill="#000000" transform="translate(50 50) scale(0.19500) translate(-703.70 -617.85)"/></g>
+</svg>
