@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="385.2 299.4 636.9 636.9" width="512" height="512">
+  <title>Parallax Data</title>
+  <defs>
+    <path id="sil" d="M 917.8,468.4 L 776.5,546.4 L 766,433 L 708.5,581.8 L 467.8,593.3 L 673.5,630.6 L 555,760.8 L 681.5,688.1 L 698.4,802.7 L 770.2,656.2 L 939.6,620.3 L 801.8,595.1 Z"/>
+    <path id="core" d="M 898.9,482.9 L 734.5,615.6 L 797.9,597.9 L 921.2,618.6 L 734.5,619.6 L 765.1,656.5 L 731,620.9 L 697.7,790.5 L 685.3,683.5 L 727,622.6 L 569.4,747.2 L 677.9,630.7 L 728.6,617.6 L 495.7,594.3 L 707.8,586.5 L 728,612.5 L 712.3,579.6 L 763,449 L 733.1,614.9 L 775,552.1 Z"/>
+    <path id="rim" d="M 917.8,468.4 L 776.5,546.4 L 766,433 L 708.5,581.8 L 467.8,593.3 L 673.5,630.6 L 555,760.8 L 681.5,688.1 L 698.4,802.7 L 770.2,656.2 L 939.6,620.3 L 801.8,595.1 Z M 898.9,482.9 L 734.5,615.6 L 797.9,597.9 L 921.2,618.6 L 734.5,619.6 L 765.1,656.5 L 731,620.9 L 697.7,790.5 L 685.3,683.5 L 727,622.6 L 569.4,747.2 L 677.9,630.7 L 728.6,617.6 L 495.7,594.3 L 707.8,586.5 L 728,612.5 L 712.3,579.6 L 763,449 L 733.1,614.9 L 775,552.1 Z" fill-rule="evenodd"/>
+    <clipPath id="clipSil"><use href="#sil"/></clipPath>
+    <linearGradient id="body" gradientUnits="userSpaceOnUse" x1="385.235" y1="299.385" x2="1022.1650000000001" y2="936.315">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".95"/><stop offset="1" stop-color="#d8cfb8" stop-opacity=".55"/>
+    </linearGradient>
+    <linearGradient id="spec" gradientUnits="userSpaceOnUse" x1="703.7" y1="299.385" x2="703.7" y2="641.44">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.9"/><stop offset=".55" stop-color="#fff" stop-opacity=".15"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8.5"/><feOffset dy="11.8"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.28"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="14.2"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".55"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf9f4"/><stop offset="1" stop-color="#ddd5c1"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx=".3" cy="0" r=".9">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.85"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.95"/><stop offset=".5" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#fff" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <rect x="410.7" y="324.9" width="586.0" height="586.0" rx="143.3" fill="url(#tile)"/>
+  <rect x="410.7" y="324.9" width="586.0" height="586.0" rx="143.3" fill="url(#sheen)"/>
+  <rect x="412.6" y="326.7" width="582.2" height="582.2" rx="143.3" fill="none" stroke="url(#edge)" stroke-width="3.8"/>
+  <use href="#rim" fill="#111111" filter="url(#shadow)"/>
+</svg>
