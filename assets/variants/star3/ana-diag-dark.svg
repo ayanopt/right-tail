@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="439.6 353.8 528.1 528.1" width="512" height="512">
+  <title>Parallax Data</title>
+
+  <g style="mix-blend-mode:screen;isolation:isolate">
+  <path d="M 899.8,454.4 L 758.5,532.4 L 748.0,419.0 L 690.5,567.8 L 449.8,579.3 L 655.5,616.6 L 537.0,746.8 L 663.5,674.1 L 680.4,788.7 L 752.2,642.2 L 921.6,606.3 L 783.8,581.1 Z" fill="#ff2a00" fill-rule="evenodd" style="mix-blend-mode:screen"/>
+  <path d="M 935.8,482.4 L 794.5,560.4 L 784.0,447.0 L 726.5,595.8 L 485.8,607.3 L 691.5,644.6 L 573.0,774.8 L 699.5,702.1 L 716.4,816.7 L 788.2,670.2 L 957.6,634.3 L 819.8,609.1 Z" fill="#e8e1ce" fill-rule="evenodd" style="mix-blend-mode:screen"/>
+  </g>
+</svg>

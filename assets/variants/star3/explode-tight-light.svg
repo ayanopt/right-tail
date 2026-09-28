@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="443.9 358.0 519.7 519.7" width="512" height="512">
+  <title>Parallax Data</title>
+
+  <path d="M 742.0,608.3 L 812.8,586.4 L 928.8,459.7 Z" fill="#000000" fill-rule="evenodd"/>
+  <path d="M 742.0,608.3 L 928.8,459.7 L 787.5,537.7 Z" fill="#000000" fill-rule="evenodd" opacity=".55"/>
+  <path d="M 733.6,603.2 L 779.1,532.6 L 768.6,419.2 Z" fill="#000000" fill-rule="evenodd"/>
+  <path d="M 733.6,603.2 L 768.6,419.2 L 711.1,568.0 Z" fill="#000000" fill-rule="evenodd" opacity=".55"/>
+  <path d="M 717.1,615.7 L 694.6,580.5 L 453.9,592.0 Z" fill="#000000" fill-rule="evenodd"/>
+  <path d="M 717.1,615.7 L 453.9,592.0 L 659.6,629.3 Z" fill="#000000" fill-rule="evenodd" opacity=".55"/>
+  <path d="M 720.2,625.9 L 662.7,639.5 L 544.2,769.7 Z" fill="#000000" fill-rule="evenodd"/>
+  <path d="M 720.2,625.9 L 544.2,769.7 L 670.7,697.0 Z" fill="#000000" fill-rule="evenodd" opacity=".55"/>
+  <path d="M 728.6,630.8 L 679.1,701.9 L 696.0,816.5 Z" fill="#000000" fill-rule="evenodd"/>
+  <path d="M 728.6,630.8 L 696.0,816.5 L 767.8,670.0 Z" fill="#000000" fill-rule="evenodd" opacity=".55"/>
+  <path d="M 745.0,617.2 L 784.2,656.4 L 953.6,620.5 Z" fill="#000000" fill-rule="evenodd"/>
+  <path d="M 745.0,617.2 L 953.6,620.5 L 815.8,595.3 Z" fill="#000000" fill-rule="evenodd" opacity=".55"/>
+</svg>
