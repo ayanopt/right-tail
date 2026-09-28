@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="455.96 341.96 550.09 550.09" width="512" height="512">
+  <title>Parallax Data</title>
+  <defs>
+    <path id="rim" d="M 917.8,468.4 L 776.5,546.4 L 766,433 L 708.5,581.8 L 467.8,593.3 L 673.5,630.6 L 555,760.8 L 681.5,688.1 L 698.4,802.7 L 770.2,656.2 L 939.6,620.3 L 801.8,595.1 Z M 898.9,482.9 L 734.5,615.6 L 797.9,597.9 L 921.2,618.6 L 734.5,619.6 L 765.1,656.5 L 731,620.9 L 697.7,790.5 L 685.3,683.5 L 727,622.6 L 569.4,747.2 L 677.9,630.7 L 728.6,617.6 L 495.7,594.3 L 707.8,586.5 L 728,612.5 L 712.3,579.6 L 763,449 L 733.1,614.9 L 775,552.1 Z" fill-rule="evenodd"/>
+    <path id="sil" d="M 917.8,468.4 L 776.5,546.4 L 766,433 L 708.5,581.8 L 467.8,593.3 L 673.5,630.6 L 555,760.8 L 681.5,688.1 L 698.4,802.7 L 770.2,656.2 L 939.6,620.3 L 801.8,595.1 Z"/>
+  </defs>
+  <rect x="456.0" y="342.0" width="550.1" height="550.1" fill="#ff2a00"/>
+  <g><use href="#rim" fill="none" stroke="#e8e1ce" stroke-width="3.6" transform="translate(731 617) rotate(0) scale(1.1 1.1) translate(-731 -617)"/></g>
+  <g><use href="#rim" fill="none" stroke="#e8e1ce" stroke-width="3.6" transform="translate(731 617) rotate(60) scale(1.1 1.1) translate(-731 -617)"/></g>
+  <g><use href="#rim" fill="none" stroke="#e8e1ce" stroke-width="3.6" transform="translate(731 617) rotate(120) scale(1.1 1.1) translate(-731 -617)"/></g>
+  <g><use href="#rim" fill="none" stroke="#e8e1ce" stroke-width="3.6" transform="translate(731 617) rotate(180) scale(1.1 1.1) translate(-731 -617)"/></g>
+  <g><use href="#rim" fill="none" stroke="#e8e1ce" stroke-width="3.6" transform="translate(731 617) rotate(240) scale(1.1 1.1) translate(-731 -617)"/></g>
+  <g><use href="#rim" fill="none" stroke="#e8e1ce" stroke-width="3.6" transform="translate(731 617) rotate(300) scale(1.1 1.1) translate(-731 -617)"/></g>
+  <g><use href="#rim" fill="#e8e1ce" transform="translate(731 617) rotate(0) scale(0.8 0.8) translate(-731 -617)"/></g>
+</svg>
