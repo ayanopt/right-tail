@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="214.92 159.41 888.18 888.18"
+     width="888" height="888">
+  <title>Parallax Data</title>
+  <defs>
+    <path id="star" d="M 1024,384 L 789,527 L 766,433 L 701,570 L 232,572 L 634,640 L 479,823 L 669,706 L 698,805 L 775,661 L 986,621 L 828,587 Z M 994,407 L 736,615 L 822,591 L 964,619 L 735,620 L 769,661 L 731,621 L 697,794 L 674,700 L 726,624 L 499,804 L 642,640 L 727,618 L 286,574 L 699,575 L 727,611 L 707,569 L 763,449 L 734,614 L 788,533 Z" fill-rule="evenodd" clip-rule="evenodd"/>
+    <mask id="gap0" maskUnits="userSpaceOnUse" x="214.92" y="159.41" width="888.18" height="888.18">
+      <rect x="214.92" y="159.41" width="888.18" height="888.18" fill="#fff"/>
+      <use href="#star" transform="translate(731 617) rotate(20) translate(-731 -617)" fill="#000" stroke="#000" stroke-width="16" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <use href="#star" fill="#000000" mask="url(#gap0)"/>
+  <use href="#star" fill="#000000" transform="translate(731 617) rotate(20) translate(-731 -617)"/>
+</svg>

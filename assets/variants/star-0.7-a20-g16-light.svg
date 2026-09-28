@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="346.30 272.66 686.29 686.29"
+     width="686" height="686">
+  <title>Parallax Data</title>
+  <defs>
+    <path id="star" d="M 969,427.7 L 782.8,536.6 L 766,433 L 704.8,575.9 L 359.5,583.5 L 654.8,635.1 L 517.5,791.5 L 675.1,697.3 L 698.2,803.9 L 772.7,658.7 L 963.4,620.6 L 814.9,591.1 Z M 944.8,446.3 L 735.3,615.3 L 810,594.4 L 943.1,618.8 L 734.8,619.8 L 767.1,658.8 L 731,620.9 L 697.3,792.4 L 679.5,692 L 726.5,623.3 L 534.7,775.3 L 660.8,635.1 L 727.9,617.8 L 399.4,585 L 703.4,580.8 L 727.5,611.8 L 709.6,574.2 L 763,449 L 733.5,614.5 L 781.6,542.4 Z" fill-rule="evenodd" clip-rule="evenodd"/>
+    <mask id="gap0" maskUnits="userSpaceOnUse" x="346.30" y="272.66" width="686.29" height="686.29">
+      <rect x="346.30" y="272.66" width="686.29" height="686.29" fill="#fff"/>
+      <use href="#star" transform="translate(731 617) rotate(20) translate(-731 -617)" fill="#000" stroke="#000" stroke-width="16" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <use href="#star" fill="#000000" mask="url(#gap0)"/>
+  <use href="#star" fill="#000000" transform="translate(731 617) rotate(20) translate(-731 -617)"/>
+</svg>
